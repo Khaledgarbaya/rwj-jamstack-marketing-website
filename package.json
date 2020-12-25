@@ -1,0 +1,11 @@
+{
+  "name": "jamstack-marketing-website",
+  "version": "1.0.0",
+  "description": "Module 1: Build a jamstack marketing website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
