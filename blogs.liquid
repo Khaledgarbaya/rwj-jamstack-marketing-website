@@ -4,13 +4,14 @@ pagination:
   size: 1
   alias: blog
   addAllPagesToCollection: true
-permalink: "{{blog.slug}}/"
-tags: "blog"
+permalink: '{{blog.slug}}/'
+tags: 'blog'
 layout: layout.liquid
 
-eleventyComputed:
-  title:"{{blog.title}}"
+eleventyComputed: title:"{{blog.title}}"
 ---
 
-<h1>{{blog.title}}</h1>
-<div> {{blog.content | documentToHtmlString}} </div>
+<div class="prose prose-xl p-12">
+  <h1>{{ blog.title }}</h1>
+  <div>{{ blog.content | documentToHtmlString }}</div>
+</div>
