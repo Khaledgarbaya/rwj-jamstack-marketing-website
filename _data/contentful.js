@@ -8,7 +8,6 @@ module.exports = function () {
   return client
     .getEntries({content_type: 'blog', order: 'sys.createdAt'})
     .then((res) => {
-      return res.items
+      return res.items.map((item) => item.fields)
     })
 }
-
