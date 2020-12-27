@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
   })
   eleventyConfig.addShortcode('heroBlock', function (block) {
     return `<div>
-      <img src="${block.fields.image.fields.file.url}" alt="block.fields.image.fields.title"/>
+      <img src="${block.fields.image.fields.file.url}" alt="${block.fields.image.fields.title}"/>
       ${block.fields.headline}
     </div>`
   })
