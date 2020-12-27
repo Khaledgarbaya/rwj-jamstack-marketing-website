@@ -61,7 +61,7 @@
           x-show.transition="true"
         >
           {% for page in contentfulPages %}
-          <a href="{{ page.slug | url }}">{{ page.title }}</a>
+          <a href="/{{ page.slug | url }}">{{ page.title }}</a>
           {% endfor %}
         </nav>
       </div>
