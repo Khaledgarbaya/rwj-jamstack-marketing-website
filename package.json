@@ -6,6 +6,8 @@
     "build": "eleventy",
     "dev:watch": "eleventy --watch --serve",
     "dev:tailwindcss": "tailwindcss-cli build ./css/tailwind.css -o ./_site/css/tailwind.css",
+    "build:tailwindcss": "NODE_ENV=production tailwindcss-cli build ./css/tailwind.css -o ./_site/css/tailwind.css",
+    "build:elventy": "ELEVENTY_ENV=production eleventy",
     "serve": "eleventy --serve",
     "start": "npm-run-all --parallel dev:*",
     "debug": "DEBUG=* eleventy"
