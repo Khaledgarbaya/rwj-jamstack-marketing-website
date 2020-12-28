@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Module 1: Build a jamstack marketing website",
   "scripts": {
-    "build": "eleventy",
+    "build": "npm-run-all --parallel build:*",
     "dev:watch": "eleventy --watch --serve",
     "dev:tailwindcss": "tailwindcss-cli build ./css/tailwind.css -o ./_site/css/tailwind.css",
     "build:tailwindcss": "NODE_ENV=production tailwindcss-cli build ./css/tailwind.css -o ./_site/css/tailwind.css",
