@@ -44,8 +44,28 @@ npm start
 
 ## Folowing along the course
 
-To get to the starting point of a specific lesson you can simply checkout the tag `git checkout <lesson-number>-start`, e.g `git checkout 01-start`.
-Similar to the lesson starting point you can checkout the finished solution for the lesson by running `git checkout <lesson-number>-finish, e.g `git checkout 01-finish`
+To get to the starting point of a specific lesson you can simply checkout the tag: 
+
+```sh
+git checkout <lesson-number>-start
+```
+e.g 
+
+```sh 
+git checkout 01-start
+```
+
+Similar to the lesson starting point you can checkout the finished solution for the lesson by running 
+
+```sh
+git checkout <lesson-number>-finish
+```
+
+e.g 
+
+```sh
+git checkout 01-finish
+```
 
 ## Author
 
