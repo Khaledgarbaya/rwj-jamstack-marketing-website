@@ -42,7 +42,7 @@ npm install
 npm start
 ```
 
-## Folowing along the course
+## Following along the course
 
 To get to the starting point of a specific lesson you can simply checkout the tag: 
 
